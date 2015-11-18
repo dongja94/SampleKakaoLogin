@@ -30,4 +30,12 @@
         android:layout_below="@+id/com_kakao_login"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <com.example.dongja94.samplekakaologin.CustomKakaoLoginButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_kakao"
+        android:layout_below="@+id/btn_logout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
